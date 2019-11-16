@@ -23,7 +23,7 @@ class App extends React.Component {
                     <Image source={require('../../sdr/assets/59b512501a37ad3b38d7eb91cdf15504.jpg')} style={{ height: 300, width: '100%' }} />
                      
                     </View>
-                    <View style={{ flexDirection: 'row', margin: 60 }}>
+                    <View style={{ flexDirection: 'row', margin: 60}}>
                         <TouchableOpacity onPress={() => this.props.navigation.navigate('Dzikir')}>
                             <View style={{ height: 100, borderWidth: 2, width: 100, margin: 3, alignItems: 'center', borderRadius: 20 }}>
                             <Image source={require('../../sdr/assets/reading-quran.png')}style={{height:'100%',width:'100%',borderRadius:20}}/>
