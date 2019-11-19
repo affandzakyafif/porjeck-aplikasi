@@ -53,6 +53,7 @@ class App extends Component {
             <Text style={{fontSize:20,color:'green'}}>1.Niat karena allah</Text>
             <Text style={{fontSize:15}}>{niat}</Text>
             <Text style={{fontSize:20,color:'green'}}>2.Takbirotul Ihram</Text>
+            <Image source={require('../../sdr/assets/gs-3.jpg')}/>
             <Text style={{fontSize:15}}>{takbir}</Text>
             <Text style={{fontSize:15}}>{sunah}</Text>
             <Text style={{fontSize:25}}>{doa}</Text>
@@ -62,6 +63,7 @@ class App extends Component {
             <Text style={{fontSize:15}}>{alfatihah}</Text>
             <Text style={{fontSize:15}}>{alfa}</Text>
             <Text style={{fontSize:20,color:'green'}}>5.Ruku'</Text>
+            <Image source={require('../../sdr/assets/gs-9.jpg')}/>
             <Text style={{fontSize:15}}>{ruku}</Text>
             <Text style={{fontSize:25}}>{doaa}</Text>
             <Text style={{fontSize:20,color:'green'}}>6.I'tidal(Bangun dari Ruku')</Text>
@@ -69,9 +71,11 @@ class App extends Component {
             <Text style={{fontSize:25}}>{tahmid}</Text>
                     <Text style={{fontSize:15}}>{doai}</Text>
                     <Text style={{fontSize:20,color:'green'}}>7.Sujud</Text>
+                    <Image source={require('../../sdr/assets/gs-12.jpg')}/>
                     <Text style={{fontSize:15}}>{sujud}</Text>
                     <Text style={{fontSize:25}}>{sujudd}</Text>
                     <Text style={{fontSize:20,color:'green'}}>8.Duduk di antara 2 sujud</Text>
+                    <Image source={require('../../sdr/assets/gs-17.jpg')} style={{height:400,width:300}}/>
                     <Text style={{fontSize:15}}>{duduk}</Text>
                     <Text style={{fontSize:25}}>{doanya}</Text>
                     <Text style={{fontSize:15}}>{dudukif}</Text>
@@ -79,6 +83,7 @@ class App extends Component {
                     <Text style={{fontSize:15}}>{solawat}</Text>
                     <Text style={{fontSize:20,color:'green'}}>9.Duduk pada tasyahud akhir</Text>
                     <Text style={{fontSize:20,color:'green'}}>10.Tasyahud akhir</Text>
+                    <Image source={require('../../sdr/assets/gs-21.jpg')}/>
                     <Text style={{fontSize:20,color:'green'}}>11.Salawat atas Nabi Shalaullahu Alaihi Wasallam setelah tasyahud akhir</Text>
                     <Text style={{fontSize:15}}>{tasahudd}</Text>
                     <Text style={{fontSize:25}}>{tasahud}</Text>

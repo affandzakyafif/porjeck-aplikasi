@@ -18,7 +18,7 @@ class App extends React.Component {
         
         return (
         
-            <View>
+            <View style={{flex:1,backgroundColor:'#66CDAA'}}>
                 <View style={{ backgroundColor: 'green', height: 50, width: '100%', alignItems: 'center',marginBottom:250 }}>
                     <Image source={require('../../sdr/assets/59b512501a37ad3b38d7eb91cdf15504.jpg')} style={{ height: 300, width: '100%' }} />
                      
@@ -31,7 +31,7 @@ class App extends React.Component {
                             </View>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={() => this.props.navigation.navigate('Sholat')}>
-                            <View style={{ height: 100, borderWidth: 2, width: 100, margin: 3, alignItems: 'center', borderRadius: 20 }}>
+                            <View style={{ height: 100, borderWidth: 2, width: 100, margin: 3, alignItems: 'center', borderRadius: 30 }}>
                             <Image source={require('../../sdr/assets/download.jpeg')} style={{height:'100%',width:'100%',borderRadius:25}}/>
                             <Text style={{ color: 'red' }}>Sholat</Text>
                             </View>
